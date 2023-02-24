@@ -24,12 +24,17 @@ a:hover{cursor: pointer;}
     align-content: center;
 }
 .left_side{
+    flex-direction: row;
+    color: white;
+    margin: 0 50px;
+}
+.logo_div{
     margin: 5px;
     flex-direction: column;
     justify-content: center;
     color: white;
 }
-.left_side div{
+.logo_div div{
     font-weight: 800;
     font-size: 25px;
 }
@@ -54,12 +59,16 @@ a:hover{cursor: pointer;}
     font-weight: 400;
     border: none;
 }
+
+.a_link{ align-items: center;}
+.cart{
+    align-items: center;
+}
 .cart span{
     color: White;
     font-weight: 900;
     font-size: 15px;
 }
-.a_link{ text-align: center; }
 
 /* --------------------- nav-bar ------------------------------- */
 
@@ -90,11 +99,19 @@ a:hover{cursor: pointer;}
 /* -------------------- card-container -------------------------- */
 
 .main{
-    margin: 20px;
+    margin: 20px 5vw;
 }
-.card_container{
+.card_container_1{
     background-color: white;
     margin: 30px 0 ;
+    display: flex;
+}
+.card_container_2{
+    background-color: white;
+    margin: 30px 0 ;
+}
+.left_part{
+    overflow: hidden;
 }
 .slider_header{
     align-content: center;
@@ -130,7 +147,7 @@ a:hover{cursor: pointer;}
 }
 .card:hover{cursor: pointer;}
 .card img:hover{
-    width: 210px; 
+    zoom: 107%;
 }
 .card span{ text-align: center; }
 .product_price{ color: green; }

@@ -1,3 +1,191 @@
-@media screen and (max-width){
+@media screen and (max-width: 980px){
+    .header{
+        padding: 10px 5vw;
+        height: 100px;
+        background-color:#2874f0;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        
+    }
+    .left_side{
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+    .left_side div{
+        font-weight: 800;
+        font-size: 20px;
+    }
+    .input_field{
+        width: 90vw;
+        height: 40px;
+    }
+    .login_btn{
+        position: absolute;
+        right: 100px;
+        top: 16px;
+        width: auto;
+        background: transparent;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
     
+    .a_link{display: none;}
+    .cart{
+        position: absolute;
+        right: 20px;
+        top: 16px;
+    }
+
+    /* -------------------- card-container -------------------------- */
+
+    
+    .slider_header h1{
+        font-size: 27px;
+    }
+    .right_part{
+        display: none;
+    }
+    .view_btn{
+        width: 90px;
+        height: 40px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .card_slider{
+        border-top: 1px solid #e4e7ed;
+        gap: 17px;
+    }
+    /* ----------------------card --------------------- */
+    .card{
+        flex-direction: column;
+        align-items: center;
+        max-width: 150px;
+        gap: 8px;
+        font-size: 20px;
+    }
+    .card:hover{cursor: pointer;}
+    .card img{
+        max-width: 150px;
+    }
+    .card img:hover{
+        zoom: 107%;
+    }
+}
+
+
+@media screen and (max-width :480px){
+    .header{
+        position: sticky;
+        padding: 10px 5vw;
+        height: 100px;
+        background-color:#2874f0;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        
+    }
+    .left_side{
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+    .left_side div{
+        font-weight: 800;
+        font-size: 15px;
+    }
+    .plus-color{
+        font-weight: 400;
+        color:#ffe500 ;
+    }
+    .input_field{
+        border: none;
+        width: 70vw;
+        height: 30px;
+        border-radius: 5px;
+        padding: 0 10px;
+    }
+    .input_field:focus{outline: none;}
+    .login_btn{
+        position: absolute;
+        right: 100px;
+        top: 16px;
+        width: auto;
+        background: transparent;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .a_link{display: none;}
+    .cart{
+        position: absolute;
+        right: 20px;
+        top: 16px;
+    }
+
+    /* --------------------- nav-bar ------------------------------- */
+
+    .nav_bar{
+        padding: 0 3vw;
+    } 
+    .nav_bar ul{ justify-content: space-around; }
+    .nav_bar ul li {list-style: none;}
+    .nav_link{
+        flex-direction: column;
+        margin: 3px;
+        gap: 3px;
+        color: black;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .nav_link img{
+        height: 35px;
+        max-width:35px;
+    }
+    /* -------------------- card-container -------------------------- */
+
+    .main{
+        margin: 10px 3vw;
+    }
+    .card_container{
+        margin: 20px 0 ;
+    }
+    .right_part{
+        display: none;
+    }
+    .slider_header h1{
+        font-size: 20px;
+    }
+    .view_btn{
+        width: 80px;
+        font-size: 13px;
+    }
+
+    .card_slider{
+        border-top: 1px solid #e4e7ed;
+        gap: 17px;
+    }
+    /* ----------------------card --------------------- */
+    .card{
+        flex-direction: column;
+        align-items: center;
+        max-width: 130px;
+        gap: 8px;
+        font-size: 14px;
+    }
+    .card:hover{cursor: pointer;}
+    .card img{
+        max-width: 130px;
+    }
+    .card img:hover{
+        zoom: 107%;
+    }
 }
