@@ -26,8 +26,18 @@
         </div>
         <button name="login_btn" class="login_btn btn">Login</button>
         <a href="#" class="a_link flex">Become a Seller</a>
-        <a href="#" class="a_link flex">More</a>
-        <div class="cart flex">
+        <div class="dropdown_menu a_link flex">
+            <a href="#" >
+                More
+            </a>
+            <ul class="dropdown">
+                    <li> Notification Preferences</li>
+                    <li> 24x7 Customer Care</li>
+                    <li> Advertise </li>
+                    <li> Download App </li>
+                </ul>
+        </div>
+        <div class="cart flex btn">
             <img src="./image/png & svg/cart_icon.png" alt="" width="25px">
             <span>Cart</span>
         </div>
@@ -39,10 +49,20 @@
                 <img src="./image/phone.webp" alt="" >
                 <span>Mobiles</span>
             </a></li>
-            <li> <a href="" class="nav_link flex">
+            <li class="dropdown_menu"> 
+                <a href="" class="nav_link flex">
                 <img src="./image/fashion.webp" alt="">
-                <span>Fashion</span>
-            </a></li>
+                <span>Fashion <img src="./image/png & svg/down-arrow.png" alt="^" id="drop_img"></span>
+                </a>
+                <ul class="dropdown">
+                    <li> Men's Top Wear</li>
+                    <li> Men's Bottom Wear </li>
+                    <li> Women's Ethnic </li>
+                    <li> Women Western </li>
+                    <li> Men FootWear </li>
+                    <li> Essentials</li>
+                </ul>
+            </li>
             <li > <a href="" class="nav_link flex">
                 <img src="./image/electonics.webp" alt="">
                 <span>Electronics</span>
@@ -63,10 +83,20 @@
                 <img src="./image/travel.webp" alt="">
                 <span>Travel</span>
             </a></li>
-            <li> <a href="" class="nav_link flex" >
+            <li class="dropdown_menu"> 
+                <a href="" class="nav_link flex">
                 <img src="./image/toys.webp" alt="">
-                <span>Beauty, Toys & More</span>
-            </a></li>
+                <span>Beauty, Toys & More <img src="./image/png & svg/down-arrow.png" alt="^" id="drop_img"></span>
+                </a>
+                <ul class="dropdown">
+                    <li> Beauty and Personal Care</li>
+                    <li> Men's Grooming </li>
+                    <li> Food's & Drinks </li>
+                    <li> Nutrition & Health Care </li>
+                    <li> Baby Care </li>
+                    <li>Books and Music</li>
+                </ul>
+            </li>
         </ul>
     </nav>
     <!--  ---------------------- main -------------------------------------- -->
@@ -84,75 +114,52 @@
                 </div>
                 <div class="card_slider flex">
                     <div class="card flex">
-                        <img src="./image/cards/Monitor.webp" alt="">
-                        <span class="product_name">Monitors</span>
-                        <span class="product_price">From ₹7949</span>
-                        <span class="product_brand">Acer</span>
+                        <img src="./image/cards/gym essentials.webp" alt="">
+                        <span class="product_name">Gym Essentials</span>
+                        <span class="product_price">From ₹139</span>
+                        <span class="product_brand">Shop Now</span>
                     </div>
                     <div class="card flex">
-                        <img src="./image/cards/Monitor.webp" alt="">
-                        <span class="product_name">Monitors</span>
-                        <span class="product_price">From ₹7949</span>
-                        <span class="product_brand">Acer</span>
+                        <img src="./image/cards/cricket.webp" alt="">
+                        <span class="product_name">Cricket</span>
+                        <span class="product_price">Upto 40% off</span>
+                        <span class="product_brand">Hurry Up</span>
                     </div>
                     <div class="card flex">
-                        <img src="./image/cards/Monitor.webp" alt="">
-                        <span class="product_name">Monitors</span>
-                        <span class="product_price">From ₹7949</span>
-                        <span class="product_brand">Acer</span>
+                        <img src="./image/cards/babybathing.webp" alt="">
+                        <span class="product_name">Baby Bathing Accessories</span>
+                        <span class="product_price">Under ₹549</span>
+                        <span class="product_brand">Baby Bath Tubs & More</span>
                     </div>
                     <div class="card flex">
-                        <img src="./image/cards/Monitor.webp" alt="">
-                        <span class="product_name">Monitors</span>
-                        <span class="product_price">From ₹7949</span>
-                        <span class="product_brand">Acer</span>
+                        <img src="./image//cards/cycleaccesories.webp" alt="">
+                        <span class="product_name">Cycles Accessories</span>
+                        <span class="product_price">From ₹125</span>
+                        <span class="product_brand">Best Deals</span>
                     </div>
                     <div class="card flex">
-                        <img src="./image/cards/Monitor.webp" alt="">
-                        <span class="product_name">Monitors</span>
-                        <span class="product_price">From ₹7949</span>
-                        <span class="product_brand">Acer</span>
+                        <img src="./image/cards/rider's he;met.webp" alt="">
+                        <span class="product_name">Rider Helmet</span>
+                        <span class="product_price">From ₹699</span>
+                        <span class="product_brand">Vega, Steelbird, HRX and More</span>
                     </div>
                     <div class="card flex">
-                        <img src="./image/cards/Monitor.webp" alt="">
-                        <span class="product_name">Monitors</span>
-                        <span class="product_price">From ₹7949</span>
-                        <span class="product_brand">Acer</span>
+                        <img src="./image/cards/car pressure washer.webp" alt="">
+                        <span class="product_name">Car Pressure washer</span>
+                        <span class="product_price">Upto 65% off</span>
+                        <span class="product_brand">Bosch, Black & More</span>
                     </div>
                     <div class="card flex">
-                        <img src="./image/cards/Monitor.webp" alt="">
-                        <span class="product_name">Monitors</span>
-                        <span class="product_price">From ₹7949</span>
-                        <span class="product_brand">Acer</span>
-                    </div>
-                    <div class="card flex">
-                        <img src="./image/cards/Monitor.webp" alt="">
-                        <span class="product_name">Monitors</span>
-                        <span class="product_price">From ₹7949</span>
-                        <span class="product_brand">Acer</span>
-                    </div>
-                    <div class="card flex">
-                        <img src="./image/cards/Monitor.webp" alt="">
-                        <span class="product_name">Monitors</span>
-                        <span class="product_price">From ₹7949</span>
-                        <span class="product_brand">Acer</span>
-                    </div>
-                    <div class="card flex">
-                        <img src="./image/cards/Monitor.webp" alt="">
-                        <span class="product_name">Monitors</span>
-                        <span class="product_price">From ₹7949</span>
-                        <span class="product_brand">Acer</span>
-                    </div>
-                    <div class="card flex">
-                        <img src="./image/cards/Monitor.webp" alt="">
-                        <span class="product_name">Monitors</span>
-                        <span class="product_price">From ₹7949</span>
-                        <span class="product_brand">Acer</span>
+                        <img src="./image/cards/cycles.webp" alt="">
+                        <span class="product_name">cycles</span>
+                        <span class="product_price">Up to 70% off</span>
+                        <span class="product_brand">Nuze, Motovolt</span>
                     </div>
                 </div>
             </div>
-            <div class="right_part">
+            <div class="right_part flex">
                 <img src="./image/ad-image.png" alt="">
+                <p>Advertise</p>
             </div>
         </div>
         <!--  ------------------------------- card-container2 ----------------------------- -->
@@ -165,70 +172,54 @@
             </div>
             <div class="card_slider flex">
                 <div class="card flex">
-                    <img src="./image/cards/Monitor.webp" alt="">
-                    <span class="product_name">Monitors</span>
-                    <span class="product_price">From ₹7949</span>
-                    <span class="product_brand">Acer</span>
+                    <img src="./image/cards/Holi/ethnic shoes.webp" alt="">
+                    <span class="product_name">Ethinc Shoes</span>
+                    <span class="product_price">Min. 70% off</span>
                 </div>
                 <div class="card flex">
-                    <img src="./image/cards/Monitor.webp" alt="">
-                    <span class="product_name">Monitors</span>
-                    <span class="product_price">From ₹7949</span>
-                    <span class="product_brand">Acer</span>
+                    <img src="./image/cards//Holi/Men's tshirt.webp" alt="">
+                    <span class="product_name">Men's T-shirts</span>
+                    <span class="product_price">Buy 3 get 10% off</span>
                 </div>
                 <div class="card flex">
-                    <img src="./image/cards/Monitor.webp" alt="">
-                    <span class="product_name">Monitors</span>
-                    <span class="product_price">From ₹7949</span>
-                    <span class="product_brand">Acer</span>
+                    <img src="./image/cards/Holi/men's kurtas.webp" alt="">
+                    <span class="product_name">Men's Kurtas</span>
+                    <span class="product_price">From ₹549</span>
                 </div>
                 <div class="card flex">
-                    <img src="./image/cards/Monitor.webp" alt="">
+                    <img src="./image/cards/Holi/sweets and mixes.webp" alt="">
                     <span class="product_name">Monitors</span>
-                    <span class="product_price">From ₹7949</span>
-                    <span class="product_brand">Acer</span>
+                    <span class="product_price">Min. 50% off </span>
                 </div>
                 <div class="card flex">
-                    <img src="./image/cards/Monitor.webp" alt="">
-                    <span class="product_name">Monitors</span>
-                    <span class="product_price">From ₹7949</span>
-                    <span class="product_brand">Acer</span>
+                    <img src="./image/cards/Holi/women's lehnga cholies.webp" alt="">
+                    <span class="product_name">Women's Lengha Cholis</span>
+                    <span class="product_price">Min. 50% off</span>
                 </div>
                 <div class="card flex">
-                    <img src="./image/cards/Monitor.webp" alt="">
-                    <span class="product_name">Monitors</span>
-                    <span class="product_price">From ₹7949</span>
-                    <span class="product_brand">Acer</span>
+                    <img src="./image/cards/Holi/women's sarees.webp" alt="">
+                    <span class="product_name">Women's Sarees</span>
+                    <span class="product_price">Min. 50% off</span>
                 </div>
                 <div class="card flex">
-                    <img src="./image/cards/Monitor.webp" alt="">
-                    <span class="product_name">Monitors</span>
-                    <span class="product_price">From ₹7949</span>
-                    <span class="product_brand">Acer</span>
+                    <img src="./image/cards/Holi/Women's dress material.webp" alt="">
+                    <span class="product_name">Women's Dress Materials</span>
+                    <span class="product_price">Min. 50% off</span>
                 </div>
                 <div class="card flex">
-                    <img src="./image/cards/Monitor.webp" alt="">
-                    <span class="product_name">Monitors</span>
-                    <span class="product_price">From ₹7949</span>
-                    <span class="product_brand">Acer</span>
+                    <img src="./image/cards/Holi/casual shoes.webp" alt="">
+                    <span class="product_name">Casual shoes</span>
+                    <span class="product_price">Min. 40% off</span>
                 </div>
                 <div class="card flex">
-                    <img src="./image/cards/Monitor.webp" alt="">
-                    <span class="product_name">Monitors</span>
-                    <span class="product_price">From ₹7949</span>
-                    <span class="product_brand">Acer</span>
+                    <img src="./image/cards/Holi/Women's Ethnic.webp" alt="">
+                    <span class="product_name">Women's Ethnic Sets</span>
+                    <span class="product_price">Buy 1 get 30% off</span>
                 </div>
                 <div class="card flex">
-                    <img src="./image/cards/Monitor.webp" alt="">
-                    <span class="product_name">Monitors</span>
-                    <span class="product_price">From ₹7949</span>
-                    <span class="product_brand">Acer</span>
-                </div>
-                <div class="card flex">
-                    <img src="./image/cards/Monitor.webp" alt="">
-                    <span class="product_name">Monitors</span>
-                    <span class="product_price">From ₹7949</span>
-                    <span class="product_brand">Acer</span>
+                    <img src="./image/cards/Holi/pooja Thali sets.webp" alt="">
+                    <span class="product_name">Pooja Thali Sets</span>
+                    <span class="product_price">From ₹299</span>
                 </div>
             </div>
         </div>
@@ -247,7 +238,7 @@
 
             if(time < 0){
                 clearInterval(x);
-                document.getElementById("countdown").innerHTML = "EXPIRED";
+                document.getElementById("countdown").innerHTML = "";
             }
         },1000);
     </script>

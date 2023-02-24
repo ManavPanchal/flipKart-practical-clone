@@ -1,7 +1,18 @@
+@media screen and (max-width: 1280px) {
+    .header{
+        padding: 20px 3vw;
+        justify-content: space-around;
+    }
+    .login_btn{
+        width: 100px;
+        background-color: white ;
+    }
+}
+
 @media screen and (max-width: 980px){
     .header{
         padding: 10px 5vw;
-        height: 100px;
+        height: 120px;
         background-color:#2874f0;
         flex-direction: row;
         justify-content: space-between;
@@ -35,6 +46,9 @@
     }
     
     .a_link{display: none;}
+    div.a_link{
+        display: none;
+    }
     .cart{
         position: absolute;
         right: 20px;
@@ -45,7 +59,7 @@
 
     
     .slider_header h1{
-        font-size: 27px;
+        font-size: 30px;
     }
     .right_part{
         display: none;
@@ -53,7 +67,7 @@
     .view_btn{
         width: 90px;
         height: 40px;
-        font-size: 17px;
+        font-size: 18px;
         font-weight: 500;
     }
 
@@ -65,23 +79,19 @@
     .card{
         flex-direction: column;
         align-items: center;
-        max-width: 150px;
+        max-width: 160px;
         gap: 8px;
-        font-size: 20px;
+        font-size: 15px;
     }
-    .card:hover{cursor: pointer;}
     .card img{
-        max-width: 150px;
-    }
-    .card img:hover{
-        zoom: 107%;
+        max-width: 160px;
+        max-height: 160px;
     }
 }
 
 
 @media screen and (max-width :480px){
     .header{
-        position: sticky;
         padding: 10px 5vw;
         height: 100px;
         background-color:#2874f0;
@@ -107,7 +117,7 @@
     }
     .input_field{
         border: none;
-        width: 70vw;
+        width: 90vw;
         height: 30px;
         border-radius: 5px;
         padding: 0 10px;
@@ -120,15 +130,21 @@
         width: auto;
         background: transparent;
         color: white;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
     }
     
     .a_link{display: none;}
+    div.a_link{
+        display: none;
+    }
     .cart{
         position: absolute;
         right: 20px;
         top: 16px;
+    }
+    .cart span {
+        content: "";
     }
 
     /* --------------------- nav-bar ------------------------------- */
@@ -162,7 +178,7 @@
         display: none;
     }
     .slider_header h1{
-        font-size: 20px;
+        font-size: 17px;
     }
     .view_btn{
         width: 80px;
@@ -179,11 +195,12 @@
         align-items: center;
         max-width: 130px;
         gap: 8px;
-        font-size: 14px;
+        font-size: 10px;
     }
     .card:hover{cursor: pointer;}
     .card img{
         max-width: 130px;
+        max-height: 130px;
     }
     .card img:hover{
         zoom: 107%;
